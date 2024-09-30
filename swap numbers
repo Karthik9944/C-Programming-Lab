@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,temp;
+    a=9,b=1;
+    temp=a;
+    a=b;
+    b=temp;
+    printf("a=%d\nb=%d",a,b);
+    return 0;
+}
