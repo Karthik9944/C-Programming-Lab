@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int X;
+    float A,B;
+    scanf("%d%f%f",&X,&A,&B);
+    float investment,revenue,profit;
+    investment = X*B;
+    revenue = X*A;
+    profit = revenue-investment-100;
+    printf("Profit obtained:%.2f",profit);
+    return 0;
+}
+
